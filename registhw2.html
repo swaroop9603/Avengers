@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REGIST</title>
+	<style type="text/css">
+		body{
+			background-image: url('images\a1.jpeg');
+		}
+		.con{
+			display: flex;
+			flex-direction: column;
+			width: 20;
+			margin-left: 450px;
+			margin-right: 450px;
+			border: 1px solid black;
+			margin-top: 50px;
+			background-color: whitesmoke;
+			
+		}
+		form{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	</style>
+</head>
+<body bgcolor="black">
+<div class="con">
+	<marquee direction="right" behaviour="alternate" scrolldelay="200" scrollamount="5">Kindly register below form</marquee>
+	<form method="" action="#">
+		<table cellpadding="5" border="1">
+			<tr>
+				<td colspan="2" align="center"><h3>REGISTRATION FORM</h3></td>
+			</tr>
+			<tr>
+				<td><label>STUDENT NAME:</label></td>
+				<td><input type="text" name="studentname"></td>
+			</tr>
+			<tr>
+				<td><label>FATHER'S NAME:</label></td>
+				<td><input type="text" name="fathername"></td>
+			</tr>
+			<tr>
+				<td><label>MOTHER'S NAME:</label></td>
+				<td><input type="text" name="mothername"></td>
+			</tr>
+			<tr>
+				<td><label>D.O.B</label></td>
+				<td><input type="date" name="DOB"></td>
+			</tr>
+			<tr>
+				<td><label>GENDER:</label></td>
+				<td><input type="radio" name="gender" value="male">Male
+					<input type="radio" name="gender" value="female">Female
+				</td>
+			</tr>
+
+			<tr>
+				<td><label>EMAIL ID:</label></td>
+				<td><input type="text" name="email"></td>
+				
+			</tr>
+			<tr>
+				<td><label>MOBILE NO:</label></td>
+				<td><input type="number" name="number"></td>
+			</tr>
+			<tr>
+				<td><label>ADDRESS:</label></td>
+				<td><textarea rows="4" cols="30"  name="ADDRESS">
+					</textarea></td>
+			</tr>
+			<tr>
+				<td><label>STATE:</label></td>
+				<td><input type="text" name="state"></td>
+			</tr>
+			<tr>
+				<td><label>CITY:</label></td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<!--<button value="register" style="background-color: white;color: black;border: 2px solid ">SUBMIT</button>-->
+					<input type="image" name="button" src="images/submit.jpeg" width="150" height="70">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</div>
+</body>
+
+</html>
